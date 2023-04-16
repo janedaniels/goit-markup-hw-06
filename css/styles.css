@@ -354,15 +354,17 @@ font-family: 'Roboto';
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: var(--brand-color);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+.icon-mail {width: 18px; height: 24px; fill: var(--brand-color);}
+.icon-phone {width: 18px; height: 24px; fill: var(--brand-color);}
+.icon-name {width: 18px; height: 18px; fill: var(--brand-color);}
 .modal-massage-text::placeholder {font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
-    color: #8E8F99;}
+    color: rgba(46, 47, 66, 0.4);}
 .modal-form-massage:focus {
     outline: none;
     border: 1px solid var(--color-logo1);
@@ -389,6 +391,7 @@ font-family: 'Roboto';
 align-items: center;
 justify-content: center;
 fill: transparent;}
+.policy-link {color: var(--color-logo1);}
 .modal-form-chek:focus + .modal-form-chek-desk span {
     background-color: var(--color-hoover);
     border: none;
